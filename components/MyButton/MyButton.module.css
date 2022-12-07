@@ -1,0 +1,32 @@
+@media only screen and (max-width: 576px) {
+  .btn_style {
+    width: 100% !important;
+  }
+}
+
+.btn_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1.6px;
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn_style:hover, .btn_style:focus {
+  border: none;
+  color: white !important;
+  background-color: grey !important;
+}
+
+@media only screen and (min-width: 576px) {
+  .btn_style {
+    border-radius: 4px;
+  }
+}

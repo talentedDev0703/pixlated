@@ -1,0 +1,114 @@
+/* @media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1540px !important;
+  }
+} */
+
+.primary_title {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.secondary_title {
+  font-size: 15px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .primary_title {
+    margin-bottom: 20px;
+  }
+  .secondary_title {
+    font-size: 18px;
+  }
+}
+
+/* Chevron left in the Bed, Feature and Credit pages */
+
+.chevron_left {
+  position: relative;
+  top: -7px;
+  width: 15px;
+  height: auto;
+  margin-right: 25px;
+}
+
+/* Previouis link in the Bed, Feature and Credit pages */
+
+.prev_link {
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+  color: #126660;
+  transition: 0.3s;
+}
+
+.prev_link:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+@media only screen and (min-width: 576px) {
+  .prev_link {
+    display: block;
+  }
+}
+
+/* Continue button in the Bed, Feature and Credit pages */
+
+.continue_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 46px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: white;
+  background-color: #126660;
+  transition: 0.3s;
+}
+
+.continue_btn:hover {
+  color: white;
+  background-color: grey;
+}
+
+@media only screen and (min-width: 576px) {
+  .continue_btn {
+    width: 214px;
+    height: 44px;
+    border-radius: 6px;
+  }
+}
+
+/* Sign button in the Login, Signup and Reset password pages */
+
+.sign_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: white;
+  background-color: #126660;
+  transition: 0.3s;
+}
+
+.sign_btn:hover {
+  background-color: grey;
+}
